@@ -1,8 +1,14 @@
 aid: altair-semiconductor
 name: Altair Semiconductor
-description: 'Altair Semiconductor is a company surfaced as a portfolio company of bessemer-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: deep-tech. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Altair Semiconductor is a fabless semiconductor company that designs low-power, highly
+  integrated cellular IoT chipsets. Its core products are the ALT1250 (a dual-mode LTE-M / NB-IoT modem
+  and SoC with integrated iSIM, MCU and GNSS) and the ALT1350 (a next-generation 5G LPWA SoC that combines
+  LTE-M/NB-IoT, unlicensed-spectrum and satellite NTN connectivity), used in smart meters, asset trackers,
+  wearables, sensors and vehicle telematics. Altair was acquired by Sony in 2016, operated as Sony''s
+  cellular IoT unit, and in 2026 was spun back out as an independent company with $50M in funding led by
+  Pitango. This is a hardware/semiconductor provider: it ships chipsets, evaluation kits and datasheets
+  rather than a public developer API, so it carries no OpenAPI, SDK, MCP or developer-portal surface to
+  enrich.'
 url: https://raw.githubusercontent.com/api-evangelist/altair-semiconductor/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,32 @@ x-backed-by:
 - bessemer-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-no-api-surface: true
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Semiconductor
+- Cellular IoT
+- Chipset
+- LPWA
+- NB-IoT
+- LTE-M
+- 5G
 - Deep Tech
+image: https://www.altairsemi.com/wp-content/uploads/2026/03/logo.svg
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +49,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/altair-semiconductor-domain-security.yml
 - type: Website
-  url: https://altair-semi.com/
+  url: https://www.altairsemi.com/
+- type: About
+  url: https://www.altairsemi.com/about/
+- type: Blog
+  url: https://www.altairsemi.com/news/
+- type: Products
+  url: https://www.altairsemi.com/products/
+- type: ResourceCenter
+  url: https://www.altairsemi.com/resource-center/product-brief/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/altair-semicon/
+- type: X
+  url: https://x.com/AltairSemi
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
