@@ -44,7 +44,7 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
-- Semiconductors
+- Semiconductor
 - Cellular IoT
 - Chipset
 - LPWA
@@ -70,6 +70,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/sony/
+  name: Sony
+  x-relationship: acquired
+  x-evidence: "Altair was acquired by Sony in 2016, operated as Sony's cellular IoT unit, and in 2026 was spun back out as an independent company with $50M in funding led by Pitango."
 - type: DomainSecurity
   url: security/altair-semiconductor-domain-security.yml
 - type: Website
